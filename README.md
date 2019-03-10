@@ -1,6 +1,6 @@
 # CS 401 Group Project - CRM
 
-Members: Nicholas Garces, Megan Williamson, Meghna Sawney
+Members: Nicholas Garces, Megan Williamson, Meghna Sawhney
 
 **Make sure to work on your own branch before we merge them into the master branch!**
 
