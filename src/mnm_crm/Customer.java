@@ -4,15 +4,15 @@ package mnm_crm;
  *
  * @author ngarc
  */
-public class Customer {
+public class Customer implements Person{
     private String lastName;
     private String firstName;
     private String email;
-    private int phoneNum;
+    private String phoneNum;   //int can only hold a value so large, better represented as a string
     private String address;
     
     //Constructor to set up new customer
-    public Customer(String last, String first, String em, int phone, String ad){
+    public Customer(String last, String first, String em, String phone, String ad){
         lastName = last;
         firstName = first;
         email = em;
@@ -39,7 +39,7 @@ public class Customer {
         return email;
     }
     
-    public int getPhoneNum(){
+    public String getPhoneNum(){
         return phoneNum;
     }
     
