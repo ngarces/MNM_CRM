@@ -9,15 +9,15 @@ package mnm_crm;
  *
  * @author ngarc
  */
-public class Employee {
+public class Employee implements Person{
     private String lastName;
     private String firstName;
     private String email;
-    private int phoneNum;
-    private int id;
+    private String phoneNum; //int can only hold a value so large, better represented as a string
+    private long id;
     
     //Constructor to set up new customer
-    public Employee(String last, String first, String em, int phone, int idNum){
+    public Employee(String last, String first, String em, String phone, long idNum){
         lastName = last;
         firstName = first;
         email = em;
@@ -44,11 +44,11 @@ public class Employee {
         return email;
     }
     
-    public int getPhoneNum(){
+    public String getPhoneNum(){
         return phoneNum;
     }
     
-    public int getId(){
+    public long getId(){
         return id;
     }
     
