@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package salesforceproj;
+package mnm_crm;
 
 import java.util.ArrayList;
 import java.util.List;
