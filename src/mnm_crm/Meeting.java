@@ -1,3 +1,5 @@
+package mnm_crm;
+
 import java.util.*;
 
 public class Meeting {
@@ -41,8 +43,8 @@ public class Meeting {
 	
 	//print out the attendees
 	void printAttendees() {
-		for(int i = 0; i < attendees.length(); i++ ) {
-			System.out.println(attendees.get(i).getName);
+		for(int i = 0; i < attendees.size(); i++ ) {
+			System.out.println(attendees.get(i).getFirstName() + " " + attendees.get(i).getLastName());
 		}
 	}
 	
